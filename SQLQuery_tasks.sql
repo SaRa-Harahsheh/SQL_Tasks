@@ -75,7 +75,10 @@ truncate table Books;
 --7- update Authors table ( Query to add Email & Phone_Number as new columns ) mmm :/
 
 alter table Authors
-add Email varchar(30),
+add Email varchar(30), Phone_Number varchar(20) ;
+
+
+alter table Authors
 add Phone_Number varchar(20);
 
 
